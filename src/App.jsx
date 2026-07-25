@@ -7,7 +7,9 @@ import Signup from "./pages/Signup.jsx";
 function App() {
   return (
     <BrowserRouter>
+    
       <Routes>
+        
         <Route path="/signup" element={<Signup />} />
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
