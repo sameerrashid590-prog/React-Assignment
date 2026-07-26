@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { supabase } from "../supabaseClient";
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom"
 
 function Login(){
 
@@ -51,6 +51,11 @@ onChange={(e)=>setPassword(e.target.value)}
 <button onClick={login}>
 Login
 </button>
+
+<p>
+  Don't have an account?
+  <Link to="/signup"> Sign up</Link>
+</p>
 
 </>
 
