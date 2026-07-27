@@ -16,3 +16,4 @@ const signup = async () => {
     "Verification email sent!\n\nPlease check your inbox and click the verification link."
   );
 };
+export default Signup;
